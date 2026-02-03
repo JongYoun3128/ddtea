@@ -104,7 +104,7 @@ section {
 }
 
 .highlight-text {
-    color: var(--primary-color);
+    color: white;
 }
 /* ========================================
    네비게이션
@@ -132,6 +132,10 @@ section {
 .nav-menu {
     display: none;
     gap: var(--spacing-md);
+}
+.ceo {
+    width: 100%;
+    text-align: center;
 }
 
 .nav-link {
@@ -569,7 +573,7 @@ section {
    왜 패키지인가 섹션
    ======================================== */
 .why-package {
-    background: var(--bg-light);
+    background: #798777;
 }
 
 .why-cards {
@@ -1104,7 +1108,10 @@ section {
         flex: 1;
         text-align: left;
     }
-
+    .ceo img {
+        width: 50%;
+        margin: 0 auto;
+    }
     .hero-image {
         flex: 1;
         max-width: 600px;
